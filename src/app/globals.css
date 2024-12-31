@@ -19,3 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.whyChoosUsBG{
+  background-image: url(./images/why-choose-us-bg.png);
+}
