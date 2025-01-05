@@ -4,22 +4,22 @@ import { Button } from "@nextui-org/button";
 
 const HireExperts = () => {
     return (
-        <div className="bg-[#f5f5f5] p-10 mt-10">
+        <div className="bg-[#f5f5f5] py-24">
             <div className="container mx-auto">
                 <div className="text-center">
                     <h1 className="text-4xl font-bold">Hire Experts in Today is Leading Technologies</h1>
                     <p className="text-lg mt-5">Empower Your Digital Transformation with Expertise in
                         Cutting-Edge Tools and Frameworks</p>
                 </div>
-                <div className="flex gap-10 mt-10">
-                    <div className="w-6/12">
+                <div className="flex md:flex-row flex-col gap-10 mt-10">
+                    <div className="lg:w-6/12">
                         <Image
                             src={tecnology}
                             alt="hire experts"
                             className="h-full"
                         />
                     </div>
-                    <div className="w-6/12">
+                    <div className="lg:w-6/12">
                         <p className="text-lg mb-4">
                             As a leading Software Solutions company, we have an in-house team of 750+ experts specializing in over 40 technologies. Our proficiency includes a wide range of programming languages, web and mobile frameworks, databases, and cloud platforms. We are also adept in containerization, orchestration, continuous integration and deployment (CI/CD), big data, and AI/ML and Blockchain ensuring we are equipped to handle all your software needs.
                             <br /><br />

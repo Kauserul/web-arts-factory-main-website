@@ -36,14 +36,14 @@ const OurServices = () => {
         },
     ]
     return (
-        <div className="container mx-auto mt-10">
+        <div className="container mx-auto my-28">
             <div className="text-center">
-                <h1 className="text-4xl font-bold">Our Awesome Services</h1>
-                <p className="text-lg mt-5">Webartsfactory, a sister concern of Morsheda PUC Ltd is a leading web solution, software management & digital marketing service provider and one of the fastest growing companies in city of Mymensingh, Bangladesh.</p>
+                <h1 className="text-3xl sm:text-4xl font-bold text-headingtext md:text-6xl">Our Awesome Services</h1>
+                <p className="text-lg mt-5 w-8/12 mx-auto">Webartsfactory, a sister concern of Morsheda PUC Ltd is a leading web solution, software management & digital marketing service provider and one of the fastest growing companies in city of Mymensingh, Bangladesh.</p>
             </div>
-            <div className="grid grid-cols-2 gap-10 mt-10">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mt-16">
                 {services.map((service, index) => (
-                    <div key={index} className="flex gap-5">
+                    <div key={index} className="md:flex gap-5">
                         <div className="w-1/5">
                             <Image src={service.img} alt={service.title} className="w-full"/>
                         </div>

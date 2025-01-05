@@ -23,3 +23,32 @@ body {
 .whyChoosUsBG{
   background-image: url(./images/why-choose-us-bg.png);
 }
+
+
+/* Primary Button Styles */
+.btn-primary {
+  @apply px-4 py-2 md:px-6 md:py-3 text-white font-semibold text-sm md:text-base rounded-lg shadow-md transition-all duration-300;
+  @apply bg-primary hover:bg-primaryGradient hover:scale-105;
+  @apply flex items-center justify-center;
+}
+
+/* Primary Title Styles */
+.title-primary {
+  @apply text-xl sm:text-3xl md:text-5xl font-bold text-headingtext text-center font-sans ;
+}
+.subtitle-primary {
+  @apply sm:text-lg font-semibold text-headingtext text-center md:w-3/4 mx-auto mt-2;
+}
+
+.slick-slide {
+  padding: 15px;
+}
+
+.slick-list {
+  margin: 0 -15px; 
+}
+
+header{
+  width: 100% !important;
+  max-width: 1536px !important;
+}
